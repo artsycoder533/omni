@@ -28,10 +28,10 @@ function Navbar() {
       <Hamburger open={open} setOpen={setOpen} />
       <ul
         className={
-          "flex flex-col md:flex-row items-center gap-6 w-full md:w-auto transition-all ease-in duration-300 md:h-full " +
+          "flex flex-col md:flex-row items-center gap-6 w-full md:w-auto transition-all ease-in duration-200 md:h-full " +
           (open
             ? "h-full p-8"
-            : "h-0 invisible md:visible transition-all ease-in duration-300")
+            : "h-0 invisible md:visible transition-all ease-in duration-200")
         }>
         {navItems.map((navItem, index) => {
           const { link, path } = navItem;

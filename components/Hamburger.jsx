@@ -11,20 +11,25 @@ function Hamburger({ open, setOpen }) {
       <span
         className={
           "w-full h-[4px] bg-black rounded-lg transition-all ease-in duration-300 absolute " +
-          (open ? "origin-center rotate-[400deg]" : "translate-y-[-14px]")
-        }></span>
+          (open ? "origin-center rotate-[400deg]" : "translate-y-[-10px]")
+        }
+      />
       <span
         className={
           "w-full h-[4px] bg-black rounded-lg transition-opacity " +
           (open ? "opacity-0" : "opacity-100")
-        }></span>
+        }
+      />
       <span
         className={
           "w-full h-[4px] bg-black rounded-lg transition-all ease-in duration-300 absolute " +
-          (open ? "origin-center -rotate-45 bg-white" : "translate-y-[14px]")
-        }></span>
+          (open ? "origin-center -rotate-45 bg-white" : "translate-y-[10px]")
+        }
+      />
     </button>
   );
 }
 
 export default Hamburger;
+//translate-y-[-10px]
+//translate-y-[10px]
