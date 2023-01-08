@@ -31,6 +31,10 @@ const footerLinks = [
 ];
 
 function Footer() {
+  const getDate = () => {
+    const date = new Date()
+    return date.getFullYear()
+  }
   return (
     <footer className="flex flex-col justify-center items-center">
       <div className="w-[90vw] md:max-w-[1400px] flex flex-col justify-center items-center">
@@ -40,7 +44,7 @@ function Footer() {
             {footerLinks.map((footerLink, index) => {
               const { link, path } = footerLink;
               return (
-                <li key={index} className="py-4">
+                <li key={index} className="py-3">
                   <Link href={path}>{link}</Link>
                 </li>
               );
@@ -48,7 +52,7 @@ function Footer() {
           </ul>
         </div>
         <p className="text-center mt-4">
-          Copyright &copy; Omni Addiction & Mental Health Services | All Rights
+          Copyright &copy; {getDate()} Omni Addiction & Mental Health Services | All Rights
           Reserved | Website Made By{" "}
           <Link
             href="https://www.natashajohnson.dev"
