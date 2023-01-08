@@ -46,7 +46,7 @@ export default function Home() {
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
 
-      <main className="flex flex-1">
+      <main className="">
 
       </main>
     </>

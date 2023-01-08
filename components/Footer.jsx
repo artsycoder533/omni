@@ -36,11 +36,11 @@ function Footer() {
     return date.getFullYear();
   };
   return (
-    <footer className="flex flex-col justify-center items-center">
-      <div className="w-[90vw] md:max-w-[1400px] flex flex-col justify-center items-center">
+    <footer className="flex flex-col justify-center items-center sticky top-full bg-black text-white">
+      <div className="w-[90vw] md:max-w-[1400px] flex flex-col md:flex-row justify-center md:justify-between items-center ">
         <Image src={logo} width={300} height={300} />
-        <div className="w-full">
-          <ul className="w-full border-red-500">
+        <div className="w-full md:w-auto">
+          <ul className="w-full md:w-auto border-red-500 grid grid-cols-2 border">
             {footerLinks.map((footerLink, index) => {
               const { link, path } = footerLink;
               return (
@@ -59,18 +59,18 @@ function Footer() {
             <p>Lawrenceville, Va 23868</p>
           </address>
         </div>
-        <p className="text-center mt-4">
-          Copyright &copy; {getDate()} Omni Addiction & Mental Health Services |
-          All Rights Reserved | Website Made By{" "}
-          <Link
-            href="https://www.natashajohnson.dev"
-            target="blank"
-            rel="noopener noreferrer"
-            className="underline">
-            Natasha Johnson
-          </Link>
-        </p>
       </div>
+      <p className="text-center mt-4 w-[90vw] md:max-w-[1400px]">
+        Copyright &copy; {getDate()} Omni Addiction & Mental Health Services |
+        All Rights Reserved | Website Made By{" "}
+        <Link
+          href="https://www.natashajohnson.dev"
+          target="blank"
+          rel="noopener noreferrer"
+          className="underline">
+          Natasha Johnson
+        </Link>
+      </p>
     </footer>
   );
 }
