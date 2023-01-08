@@ -32,9 +32,9 @@ const footerLinks = [
 
 function Footer() {
   const getDate = () => {
-    const date = new Date()
-    return date.getFullYear()
-  }
+    const date = new Date();
+    return date.getFullYear();
+  };
   return (
     <footer className="flex flex-col justify-center items-center">
       <div className="w-[90vw] md:max-w-[1400px] flex flex-col justify-center items-center">
@@ -51,14 +51,22 @@ function Footer() {
             })}
           </ul>
         </div>
+        <div>
+          <address className="text-center my-3">
+            <p>Omni Addiction & Mental Health Services</p>
+            <p>102 E. Hicks Street</p>
+            <p>Suite 100</p>
+            <p>Lawrenceville, Va 23868</p>
+          </address>
+        </div>
         <p className="text-center mt-4">
-          Copyright &copy; {getDate()} Omni Addiction & Mental Health Services | All Rights
-          Reserved | Website Made By{" "}
+          Copyright &copy; {getDate()} Omni Addiction & Mental Health Services |
+          All Rights Reserved | Website Made By{" "}
           <Link
             href="https://www.natashajohnson.dev"
             target="blank"
             rel="noopener noreferrer"
-          className="underline">
+            className="underline">
             Natasha Johnson
           </Link>
         </p>
