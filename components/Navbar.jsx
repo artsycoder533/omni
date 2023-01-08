@@ -43,28 +43,6 @@ function Navbar() {
             </li>
           );
         })}
-        {/* <li>
-          <Link className="font-semibold tracking-wide text-lg" href="/">
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link className="font-semibold tracking-wide text-lg" href="/about">
-            About Us
-          </Link>
-        </li>
-        <li>
-          <Link
-            className="font-semibold tracking-wide text-lg"
-            href="/services">
-            Services
-          </Link>
-        </li>
-        <li>
-          <Link className="font-semibold tracking-wide text-lg" href="/contact">
-            Contact
-          </Link>
-        </li> */}
       </ul>
     </nav>
   );
