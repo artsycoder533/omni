@@ -36,11 +36,11 @@ function Footer() {
     return date.getFullYear();
   };
   return (
-    <footer className="flex flex-col justify-center items-center sticky top-full bg-black text-white">
-      <div className="w-[90vw] md:max-w-[1400px] flex flex-col md:flex-row justify-center md:justify-between items-center ">
-        <Image src={logo} width={300} height={300} />
+    <footer className="flex flex-col justify-center items-center sticky top-full bg-black text-white py-2">
+      <div className="w-[90vw] md:max-w-[1400px] flex flex-col gap-6 md:flex-row justify-center md:justify-between items-center ">
+        <Image src={logo} width={275} height={275} />
         <div className="w-full md:w-auto">
-          <ul className="w-full md:w-auto border-red-500 grid grid-cols-2 border">
+          <ul className="w-full md:w-auto border-red-500 grid grid-cols-2 gap-x-24 sm:gap-x-8 border">
             {footerLinks.map((footerLink, index) => {
               const { link, path } = footerLink;
               return (
@@ -51,7 +51,7 @@ function Footer() {
             })}
           </ul>
         </div>
-        <div>
+        <div className="border">
           <address className="text-center my-3">
             <p>Omni Addiction & Mental Health Services</p>
             <p>102 E. Hicks Street</p>
