@@ -11,7 +11,7 @@ function Hamburger({ open, setOpen }) {
       <span
         className={
           "w-full h-[4px] bg-black rounded-lg transition-all ease-in duration-300 absolute " +
-          (open ? "origin-center rotate-[400deg]" : "translate-y-[-10px]")
+          (open ? "origin-center rotate-[400deg]" : "translate-y-[-14px]")
         }
       />
       <span
@@ -23,7 +23,7 @@ function Hamburger({ open, setOpen }) {
       <span
         className={
           "w-full h-[4px] bg-black rounded-lg transition-all ease-in duration-300 absolute " +
-          (open ? "origin-center -rotate-45 bg-white" : "translate-y-[10px]")
+          (open ? "origin-center -rotate-45 bg-white" : "translate-y-[14px]")
         }
       />
     </button>

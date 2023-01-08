@@ -16,10 +16,11 @@ export default function Home() {
           name="description"
           content="We are Omni Addiction & Mental Health Services, a private behavioral health clinic offering outpatient MentalHealth and Substance Use Therapy."
         />
+        <meta name="author" content="LaTeshia A. Gilliam, LPC, LSATP/Owner" />
         <meta
-          name="author"
-          content="LaTeshia A. Gilliam, LPC, LSATP/Owner" />
-        <meta name="keywords" content="Addiction, Mental Health, Counseling, Therapy, Substance Abuse, Individual Therapy, Group Therapy, Family Therapy, CSAC Supervision" />
+          name="keywords"
+          content="Addiction, Mental Health, Counseling, Therapy, Substance Abuse, Individual Therapy, Group Therapy, Family Therapy, CSAC Supervision"
+        />
         <meta
           property="og:title"
           content="Omni Addiction & Mental Health Services"
@@ -44,7 +45,10 @@ export default function Home() {
         />
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
-      <main></main>
+
+      <main className="flex flex-1">
+
+      </main>
     </>
   );
 }
