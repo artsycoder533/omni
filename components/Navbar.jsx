@@ -18,13 +18,19 @@ function Navbar() {
     <nav
       className="flex items-center justify-between max-w-[1400px] mx-auto flex-wrap md:flex-nowrap"
       open={open}>
-      <Image
-        src={logo}
-        alt="Omni Addiction & Mental Health Services"
-        width={75}
-        height={75}
-        priority
-      />
+      <div className="flex items-center gap-6">
+        <Image
+          src={logo}
+          alt="Omni Addiction & Mental Health Services"
+          width={75}
+          height={75}
+          priority
+        />
+        <h1 className="text-xl font-semibold text-[#601A7F]">
+          Omni Addiction & Mental Health Services
+        </h1>
+      </div>
+
       <Hamburger open={open} setOpen={setOpen} />
       <ul
         className={
