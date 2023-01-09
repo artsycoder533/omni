@@ -6,9 +6,9 @@ import Hamburger from "./Hamburger";
 
 const navItems = [
   { link: "Home", path: "/#home" },
-  { link: "About Us", path: "/#about-us" },
-  { link: "Services", path: "/#services" },
-  { link: "Contact", path: "/#contact" },
+  { link: "About Us", path: "#about-us" },
+  { link: "Services", path: "#services" },
+  { link: "Contact", path: "#contact" },
 ];
 
 function Navbar() {
@@ -43,7 +43,7 @@ function Navbar() {
           const { link, path } = navItem;
           return (
             <li key={index}>
-              <Link className="font-semibold tracking-wide text-lg" href={path}>
+              <Link className="font-semibold tracking-wide text-lg" href={path} scroll={false}>
                 {link}
               </Link>
             </li>

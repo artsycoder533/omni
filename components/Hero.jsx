@@ -5,7 +5,7 @@ import hero from '../public/images/hero.jpg'
 
 function Hero() {
   return (
-    <section className="min-h-[calc(100vh-91px)] border w-full text-white relative bg-gray-900 opacity-90 flex">
+    <section className="min-h-[calc(100vh-91px)] w-full text-white relative bg-gray-900 opacity-90 flex rounded-br-full overflow-clip">
       <Image src={hero} fill className="-z-10 mix-blend-multiply" alt="" />
       <div className="max-w-[1400px] mx-auto flex items-center w-full justify-between self-center">
         <div>
@@ -29,6 +29,7 @@ function Hero() {
         </div>
         <Image src={logo} alt="" priority width={600} height={600} />
       </div>
+     
     </section>
   );
 }

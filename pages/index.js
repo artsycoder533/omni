@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Hero from "../components/Hero";
-
+import About from "../components/About";
 
 export default function Home() {
   return (
@@ -43,8 +43,9 @@ export default function Home() {
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
 
-      <main>
+      <main className="bg-[#4A076D]">
         <Hero />
+        <About />
       </main>
     </>
   );
