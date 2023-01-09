@@ -10,9 +10,15 @@ function Hero() {
       <div className="max-w-[1400px] mx-auto flex items-center w-full justify-between self-center">
         <div>
           <h1 className="uppercase bold flex flex-col tracking-tighter">
-            <span className="text-8xl mb-4">Helping.</span>
-            <span className="text-9xl">Healing.</span>
-            <span className="text-[10rem]">Caring.</span>
+            <span className="text-8xl mb-4 first-letter:text-[#9C9EA0]">
+              Helping.
+            </span>
+            <span className="text-9xl first-letter:text-[#1A8C91]">
+              Healing.
+            </span>
+            <span className="text-[10rem] first-letter:text-[#BDE11A]">
+              Caring.
+            </span>
           </h1>
           <div className="mt-12 flex gap-6">
             <button className="bg-[#601A7F] border-none">
@@ -21,7 +27,7 @@ function Hero() {
             <button>Learn More</button>
           </div>
         </div>
-        <Image src={logo} alt="" priority />
+        <Image src={logo} alt="" priority width={600} height={600} />
       </div>
     </section>
   );
