@@ -38,7 +38,7 @@ function Footer() {
   return (
     <footer className="flex flex-col justify-center items-center sticky top-full bg-black text-white py-2">
       <div className="w-[90vw] md:max-w-[1400px] flex flex-col gap-6 md:flex-row justify-center md:justify-between items-center ">
-        <Image src={logo} width={275} height={275} />
+        <Image src={logo} width={275} height={275} alt="" />
         <div className="w-full md:w-auto">
           <ul className="w-full md:w-auto border-red-500 grid grid-cols-2 gap-x-24 sm:gap-x-8 border">
             {footerLinks.map((footerLink, index) => {
