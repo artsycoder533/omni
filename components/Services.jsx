@@ -35,14 +35,18 @@ function Services() {
   ];
   return (
     <div className="bg-white min-h-screen" id="services">
-      <div className="max-w-[1400px] mx-auto">
+      <div className="max-w-[1400px] mx-auto flex flex-col border-b-2 pb-16">
         <h2 className="text-5xl text-center py-16">Our Services</h2>
         <div className="grid grid-cols-4 gap-8">
-          {services.map(service => {
-            return <ServiceCard {...service} />
+          {services.map((service) => {
+            return <ServiceCard {...service} />;
           })}
         </div>
+        <button className="bg-[#4A076D] text-white self-center my-8">
+          Schedule Apppointment
+        </button>
         <h3 className="text-4xl text-center py-16">Coming Soon...</h3>
+
         <ul className="flex justify-center gap-16">
           <li>VASAP (Virginia Alcohol Safety Action Program) Classes</li>
           <li>LPC Supervision</li>
@@ -50,7 +54,7 @@ function Services() {
         </ul>
       </div>
     </div>
-  )
+  );
 }
 
 export default Services

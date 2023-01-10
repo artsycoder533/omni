@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import About from "../components/About";
 import Intro from "../components/Intro";
 import Services from "../components/Services";
+import Faq from "../components/Faqs";
 
 export default function Home() {
   return (
@@ -50,6 +51,7 @@ export default function Home() {
         <Intro />
         <Services />
         <About />
+        <Faq />
       </main>
     </>
   );
