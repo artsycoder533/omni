@@ -3,9 +3,9 @@ import Image from "next/image";
 
 function ServiceCard({ title, description, src }) {
   return (
-    <div className="border rounded-xl flex flex-col">
+    <div className="border rounded-xl flex flex-col w-[300px]">
       <div className="w-full border-t-xl">
-        <Image src={src} width={350} height={200} className="object-cover rounded-t-xl" />
+        <Image src={src} w={300} height={200} alt={title} className="w-auto rounded-t-xl" />
       </div>
 
       <div className="p-4">

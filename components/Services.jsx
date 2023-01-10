@@ -37,9 +37,9 @@ function Services() {
     <div className="bg-white min-h-screen" id="services">
       <div className="w-[90vw] max-w-[1400px] mx-auto flex flex-col border-b-2 pb-16">
         <h2 className="text-5xl text-center py-16">Our Services</h2>
-        <div className="grid grid-rows-4 md:grid-cols-4 gap-8 justify-center">
-          {services.map((service) => {
-            return <ServiceCard {...service} />;
+        <div className="grid grid-rows-4 md:grid-rows-1 md:grid-cols-4 gap-8 justify-center">
+          {services.map((service, index) => {
+            return <ServiceCard key={index} {...service} />;
           })}
         </div>
         <button className="bg-[#4A076D] text-white self-center my-8">
