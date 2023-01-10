@@ -5,13 +5,13 @@ import headshot from '../public/images/headshot-placeholder.jpg'
 function About() {
   return (
     <div className="bg-white min-h-screen flex items-center" id="about-us">
-      <div className="flex border max-w-[1400px] mx-auto w-full">
-        <div className="w-full font-semibold text-lg">
+      <div className="flex max-w-[1400px] mx-auto w-full">
+        <div className="w-full text-lg">
           <Image src={headshot} priority height={500} width={500} />
           <h2 className="mt-2">LaTeshia A. Gilliam, LPC, LSATP/Owner</h2>
           <p>SUD/MH Therapist</p>
         </div>
-        <div className="border flex flex-col gap-4 leading-8 w-full">
+        <div className="flex flex-col gap-4 leading-8 w-full">
           <p className="first-letter:font-bold first-letter:text-8xl first-letter:mr-3 first-letter:float-left">
             We are Omni Addiction & Mental Health Services, a private behavioral
             health clinic offering outpatient MentalHealth and Substance Use
