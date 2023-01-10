@@ -44,10 +44,12 @@ function Faq() {
     },
   ];
   return (
-    <div className="bg-white border py-16">
-      <div className="max-w-[1400px] mx-auto flex justify-between items-center">
-        <h3 className="text-center text-5xl w-full">Frequently Asked Questions</h3>
-        <div className="flex flex-col w-full">
+    <div className=" py-16 bg-[#018183]">
+      <div className="w-[90vw] max-w-[1400px] mx-auto flex justify-between items-center flex-col md:flex-row">
+        <h3 className="text-center text-5xl w-full text-white font-semibold py-12">
+          Frequently Asked Questions
+        </h3>
+        <div className="flex flex-col w-full gap-4 ">
           {faqs.map((faq, index) => {
             return <SingleFaq key={index} {...faq} />;
           })}
