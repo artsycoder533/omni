@@ -26,7 +26,7 @@ function Navbar() {
           height={75}
           priority
         />
-        <h1 className="text-xl font-semibold text-[#601A7F]">
+        <h1 className="text-xl font-semibold text-[#601A7F] hidden md:block">
           Omni Addiction & Mental Health Services
         </h1>
       </div>
