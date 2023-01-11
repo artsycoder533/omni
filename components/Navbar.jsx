@@ -18,16 +18,16 @@ function Navbar() {
   const [_document, setDocument] = useState(null)
 
   useEffect(() => {
-// if (open) {
-//   document.body.style.overflow = "hidden";
-// } else {
-//   document.body.style = "scroll";
-// }
-    setDocument(document)
+if (open) {
+  document.body.style.overflow = "hidden";
+} else {
+  document.body.style = "scroll";
+}
+    // setDocument(document)
   }, [])
 
-  if (open) _document.body.style.overflow = "hidden"
-  else _document.body.style = "scroll"
+  // if (open) _document.body.style.overflow = "hidden"
+  // else _document.body.style = "scroll"
 
   return (
     <nav
