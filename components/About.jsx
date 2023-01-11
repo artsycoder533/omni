@@ -5,15 +5,17 @@ import headshot from '../public/images/headshot-placeholder.jpg'
 function About() {
   return (
     <div
-      className="bg-white min-h-screen flex items-center py-16"
+      className="bg-white pb-16 flex flex-col items-center"
       id="about-us">
-      <div className="flex flex-col md:flex-row w-[90vw] max-w-[1400px] mx-auto">
-        <div className="w-full text-lg mb-8 text-center">
+      <h2 className="text-5xl text-center py-16">About Us</h2>
+      <div className="flex flex-col lg:flex-row w-[90vw] max-w-[1400px] mx-auto gap-12 ">
+        <div className="text-lg mb-8 text-center overflow-hidden">
           <Image
             src={headshot}
             priority
             height={500}
-            width={600}
+            width={500}
+            className="rounded-lg mx-auto"
             alt="LaTeshia A. Gilliam, LPC, LSATP/Owner"
           />
           <h2 className="mt-2">LaTeshia A. Gilliam, LPC, LSATP/Owner</h2>
