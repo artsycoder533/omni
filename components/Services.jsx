@@ -47,7 +47,7 @@ function Services() {
         </button>
         <h3 className="text-4xl text-center py-16">Coming Soon...</h3>
 
-        <ul className="w-[90vw] flex flex-col md:flex-row justify-center gap-4 md:gap-16 list-disc list-inside">
+        <ul className="w-[90vw] max-w-[1400px] mx-auto flex  flex-col justify-center gap-4 text-center list-disc list-inside">
           <li>VASAP (Virginia Alcohol Safety Action Program) Classes</li>
           <li>LPC Supervision</li>
           <li>LSATP Supervision</li>
