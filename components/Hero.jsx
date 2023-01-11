@@ -9,13 +9,13 @@ function Hero() {
       {/* <Image src={hero} fill className="-z-10 mix-blend-multiply" alt="" /> */}
       <div className="max-w-[1400px] mx-auto flex items-center justify-center w-full">
         <div className="uppercase bold flex flex-col tracking-tighter text-center">
-          <p className="text-5xl md:text-8xl mb-4 first-letter:text-[#9C9EA0]">
+          <p className="text-5xl sm:text-7xl md:text-8xl mb-4 first-letter:text-[#9C9EA0]">
             Helping.
           </p>
-          <p className="text-6xl md:text-9xl first-letter:text-[#1A8C91]">
+          <p className="text-6xl sm:text-8xl md:text-9xl first-letter:text-[#1A8C91]">
             Healing.
           </p>
-          <p className="text-8xl md:text-[11rem] first-letter:text-[#BDE11A]">
+          <p className="text-8xl sm:text-9xl md:text-[11rem] first-letter:text-[#BDE11A]">
             Caring.
           </p>
           <div className="mt-12 flex flex-col md:flex-row justify-center gap-6">
