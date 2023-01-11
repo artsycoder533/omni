@@ -24,7 +24,7 @@ if (open) {
   document.body.style = "scroll";
 }
     // setDocument(document)
-  }, [])
+  }, [open])
 
   // if (open) _document.body.style.overflow = "hidden"
   // else _document.body.style = "scroll"
