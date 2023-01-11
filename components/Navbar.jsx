@@ -14,6 +14,9 @@ const navItems = [
 function Navbar() {
   const [open, setOpen] = useState(false);
 
+  if (open) document.body.style.overflow = 'hidden'
+  else document.body.style = 'scroll'
+
   return (
     <nav
       className="flex items-center justify-between max-w-[1400px] mx-auto flex-wrap md:flex-nowrap"
@@ -36,8 +39,8 @@ function Navbar() {
         className={
           "flex flex-col md:flex-row items-center gap-6 w-full md:w-auto transition-all ease-in duration-200 md:h-full " +
           (open
-            ? "h-full p-8 z-10"
-            : "h-0 invisible md:visible transition-all ease-in duration-200")
+            ? "h-screen p-8 z-10 translate-x-0"
+            : "h-0 translate-x-[-100] invisible md:visible transition-all ease-in duration-200")
         }>
         {navItems.map((navItem, index) => {
           const { link, path } = navItem;
