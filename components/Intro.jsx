@@ -3,7 +3,7 @@ import React from 'react'
 function Intro() {
   return (
     <div className="bg-white">
-      <div className="w-[90vw] max-w-[1400px] mx-auto md:text-center py-24 border-b-2">
+      <div className="w-[80vw] max-w-[1400px] mx-auto md:text-center py-24 border-b-2">
         <h2 className="text-4xl font-semibold mb-8 text-center">So Who Really Needs Therapy Anyway?</h2>
         <p className="leading-10 text-xl">
           I'm so glad you asked! Research shows that over 50 million Americans
