@@ -37,16 +37,16 @@ function Navbar() {
       <Hamburger open={open} setOpen={setOpen} />
       <ul
         className={
-          "flex flex-col md:flex-row items-center gap-6 w-full md:w-auto transition-all ease-in duration-200 md:h-full " +
+          "flex flex-col md:flex-row items-center gap-8 w-full md:w-auto transition-all ease-in-out duration-200 md:h-full " +
           (open
-            ? "h-screen p-8 z-10 translate-x-0"
+            ? "h-[calc(100vh-91px)] p-8 z-10 translate-x-0 justify-center"
             : "h-0 translate-x-[-100] invisible md:visible transition-all ease-in duration-200")
         }>
         {navItems.map((navItem, index) => {
           const { link, path } = navItem;
           return (
             <li key={index}>
-              <Link className="font-semibold tracking-wide text-lg" href={path} scroll={false}>
+              <Link className={"font-normal tracking-wide py-3 text-lg " + (open ? "text-2xl" : "")} href={path} scroll={false}>
                 {link}
               </Link>
             </li>
