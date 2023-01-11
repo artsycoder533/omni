@@ -3,6 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 import logo from "../public/images/logo.png";
 import Hamburger from "./Hamburger";
+import { useEffect } from "react";
+
 
 const navItems = [
   { link: "Home", path: "/#home" },
@@ -13,9 +15,19 @@ const navItems = [
 
 function Navbar() {
   const [open, setOpen] = useState(false);
+  const [_document, setDocument] = useState(null)
 
-  if (open) document.body.style.overflow = 'hidden'
-  else document.body.style = 'scroll'
+  useEffect(() => {
+// if (open) {
+//   document.body.style.overflow = "hidden";
+// } else {
+//   document.body.style = "scroll";
+// }
+    setDocument(document)
+  }, [])
+
+  if (open) _document.body.style.overflow = "hidden"
+  else _document.body.style = "scroll"
 
   return (
     <nav
