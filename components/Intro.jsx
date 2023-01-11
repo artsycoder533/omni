@@ -2,7 +2,7 @@ import React from 'react'
 
 function Intro() {
   return (
-    <div className="bg-white">
+    <div className="bg-white" id="why-therapy">
       <div className="w-[80vw] max-w-[1400px] mx-auto md:text-center py-24 border-b-2">
         <h2 className="text-4xl font-semibold mb-8 text-center">So Who Really Needs Therapy Anyway?</h2>
         <p className="leading-10 text-xl">

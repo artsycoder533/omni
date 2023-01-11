@@ -5,6 +5,7 @@ import Intro from "../components/Intro";
 import Services from "../components/Services";
 import Faq from "../components/Faqs";
 import Contact from "../components/Contact";
+import Mission from "../components/Mission";
 
 export default function Home() {
   return (
@@ -51,6 +52,7 @@ export default function Home() {
         <Hero />
         <Intro />
         <Services />
+        <Mission />
         <About />
         <Contact />
         <Faq />

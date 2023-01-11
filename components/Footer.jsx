@@ -21,8 +21,8 @@ const footerLinks = [
     path: "/#services",
   },
   {
-    link: "FAQ",
-    path: "/#faq",
+    link: "FAQs",
+    path: "/#faqs",
   },
   {
     link: "Contact",
@@ -37,10 +37,10 @@ function Footer() {
   };
   return (
     <footer className="flex flex-col justify-center items-center sticky top-full bg-black text-white py-2">
-      <div className="w-[90vw] md:max-w-[1400px] flex flex-col gap-6 md:flex-row justify-center md:justify-between items-center ">
+      <div className="w-[90vw] md:max-w-[1400px] flex flex-col gap-6 lg:flex-row justify-center md:justify-between items-center ">
         <Image src={logo} width={275} height={275} alt="" />
         <div className="w-full md:w-auto">
-          <ul className="w-full md:w-auto border-red-500 grid grid-cols-2 gap-x-24 sm:gap-x-8 border">
+          <ul className="w-full md:w-auto grid grid-cols-2 md:gap-x-24">
             {footerLinks.map((footerLink, index) => {
               const { link, path } = footerLink;
               return (
@@ -51,8 +51,8 @@ function Footer() {
             })}
           </ul>
         </div>
-        <div className="border">
-          <address className="text-center my-3">
+        <div className="">
+          <address className="text-center py-3 flex flex-col gap-3">
             <p>Omni Addiction & Mental Health Services</p>
             <p>102 E. Hicks Street</p>
             <p>Suite 100</p>
@@ -60,14 +60,14 @@ function Footer() {
           </address>
         </div>
       </div>
-      <p className="text-center mt-4 w-[90vw] md:max-w-[1400px]">
+      <p className="text-center mt-4 w-[90vw] md:max-w-[1400px] p-2">
         Copyright &copy; {getDate()} Omni Addiction & Mental Health Services |
         All Rights Reserved | Website Made By{" "}
         <Link
           href="https://www.natashajohnson.dev"
-          target="blank"
+          target="_blank"
           rel="noopener noreferrer"
-          className="underline">
+          className="underline text-[#018183]">
           Natasha Johnson
         </Link>
       </p>
@@ -76,3 +76,4 @@ function Footer() {
 }
 
 export default Footer;
+//

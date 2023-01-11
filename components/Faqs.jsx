@@ -44,7 +44,7 @@ function Faq() {
     },
   ];
   return (
-    <div className=" py-16 bg-[#018183]">
+    <div className=" py-16 bg-[#018183]" id="faqs">
       <div className="w-[90vw] max-w-[1400px] mx-auto flex justify-between items-center flex-col md:flex-row">
         <h3 className="text-center md:text-left text-5xl w-full text-white font-semibold py-12 flex flex-col gap-4">
           <span>Frequently</span> <span>Asked</span> <span>Questions</span>
