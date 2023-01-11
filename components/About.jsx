@@ -4,10 +4,18 @@ import headshot from '../public/images/headshot-placeholder.jpg'
 
 function About() {
   return (
-    <div className="bg-white min-h-screen flex items-center py-16" id="about-us">
+    <div
+      className="bg-white min-h-screen flex items-center py-16"
+      id="about-us">
       <div className="flex flex-col md:flex-row w-[90vw] max-w-[1400px] mx-auto">
         <div className="w-full text-lg mb-8 text-center">
-          <Image src={headshot} priority height={500} width={600} />
+          <Image
+            src={headshot}
+            priority
+            height={500}
+            width={600}
+            alt="LaTeshia A. Gilliam, LPC, LSATP/Owner"
+          />
           <h2 className="mt-2">LaTeshia A. Gilliam, LPC, LSATP/Owner</h2>
           <p>SUD/MH Therapist</p>
         </div>

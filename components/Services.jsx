@@ -37,7 +37,7 @@ function Services() {
     <div className="bg-white min-h-screen" id="services">
       <div className="w-[90vw] max-w-[1400px] mx-auto flex flex-col border-b-2 pb-16">
         <h2 className="text-5xl text-center py-16">Our Services</h2>
-        <div className="grid grid-rows-4 md:grid-rows-1 md:grid-cols-4 gap-8 justify-center">
+        <div className="flex gap-8 flex-wrap justify-center">
           {services.map((service, index) => {
             return <ServiceCard key={index} {...service} />;
           })}
@@ -47,7 +47,7 @@ function Services() {
         </button>
         <h3 className="text-4xl text-center py-16">Coming Soon...</h3>
 
-        <ul className="flex flex-col md:flex-row justify-center gap-16">
+        <ul className="w-[90vw] flex flex-col md:flex-row justify-center gap-4 md:gap-16 list-disc list-inside">
           <li>VASAP (Virginia Alcohol Safety Action Program) Classes</li>
           <li>LPC Supervision</li>
           <li>LSATP Supervision</li>
@@ -58,3 +58,5 @@ function Services() {
 }
 
 export default Services
+
+//grid-rows-4 sm:grid-rows-2 sm:grid-cols-2 lg:grid-rows-1 xl:grid-cols-4 gap-8
