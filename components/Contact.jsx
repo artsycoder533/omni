@@ -11,6 +11,7 @@ function Contact() {
         <form
           name="omni"
           method="POST"
+          action="/"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
           netlify
