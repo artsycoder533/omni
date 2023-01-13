@@ -12,4 +12,7 @@
   button {
     @apply border px-5 py-4 rounded-md uppercase font-medium tracking-wider
   }
+  input, textarea {
+    @apply p-3 text-base text-black
+  }
 }
