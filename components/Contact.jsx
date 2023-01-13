@@ -4,19 +4,25 @@ import { FaPhone, FaEnvelope, FaClock, FaMapMarkerAlt } from "react-icons/fa";
 function Contact() {
   return (
     <div
-      className="min-h-screen flex flex-col justify-between text-white pt-24"
+      className="min-h-screen flex flex-col gap-8 text-white pt-24 "
       id="contact">
       <h2 className="text-5xl text-center pb-16">Contact Us Today!</h2>
-      <div className="flex flex-col xl:flex-row max-w-[1400px] mx-auto w-[90vw]  lg:gap-24">
-        <form className="flex flex-col max-w-[600px] mx-auto pb-16 gap-8">
+      <div className="flex flex-col xl:flex-row max-w-[1400px] mx-auto w-[90vw] lg:gap-24">
+        <form
+          name="omni"
+          method="POST"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+        className="w-full">
+          <input type="hidden" name="form-name" value="omni" />
           <div className="flex flex-col md:flex-row gap-8 w-full">
             <div className="flex flex-col w-full">
               <label htmlFor="name">Name:</label>
-              <input type="text" name="name" id="email" />
+              <input type="text" name="name" id="email" required />
             </div>
             <div className="flex flex-col w-full">
               <label htmlFor="email">Email:</label>
-              <input type="email" name="email" id="email" />
+              <input type="email" name="email" id="email" required />
             </div>
           </div>
           <div className="flex flex-col">
@@ -25,7 +31,8 @@ function Contact() {
               name="message"
               id="message"
               cols="30"
-              rows="10"></textarea>
+              rows="10"
+              required></textarea>
           </div>
           <p>Terms of Use</p>
           <p>
@@ -43,7 +50,7 @@ function Contact() {
             Send Message
           </button>
         </form>
-        <div className="flex flex-col mb-16">
+        <div className="flex flex-col mb-16 w-full">
           <div className="grid grid-cols-1 sm:grid-cols-2 sm:grid-rows-2  w-full justify-between">
             <div className="flex flex-col justify-center items-center p-4 sm:bg-[#018183]">
               <h3 className="flex gap-3">
