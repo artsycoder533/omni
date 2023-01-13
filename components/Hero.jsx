@@ -6,7 +6,7 @@ import React from 'react'
 function Hero() {
   return (
     <section
-      className="min-h-[calc(70vh-91px)] sm:min-h-[calc(80vh-91px)] w-full text-white relative bg-gray-900 flex xl:rounded-tl-full xl:rounded-br-full overflow-clip mt-[91px]"
+      className="min-h-[calc(70vh-91px)] sm:min-h-[calc(80vh-91px)] w-full text-white relative bg-gray-900 flex xl:rounded-tl-full xl:rounded-br-full overflow-clip mt-[91px] py-4"
       id="/">
       {/* <Image src={hero} fill className="-z-10 mix-blend-multiply" alt="" /> */}
       <div className="max-w-[1400px] mx-auto flex items-center justify-center w-full">
