@@ -1,4 +1,5 @@
 import React from "react";
+import { isArray } from "util";
 
 function SingleFaq({ question, answer }) {
   return (
@@ -6,7 +7,11 @@ function SingleFaq({ question, answer }) {
       <summary className="transition-all duration-300 ease-in-out font-semibold">
         {question}
       </summary>
-      <p className="p-2 mt-2">{answer}</p>
+      {!isArray(answer) ? (
+        <p className="p-2 mt-2">{answer}</p>
+      ) : (
+        answer.map((el) => <li className="p-2 mt-2">{el}</li>)
+      )}
     </details>
   );
 }

@@ -4,6 +4,34 @@ import SingleFaq from './SingleFaq';
 function Faq() {
   const faqs = [
     {
+      question:
+        "Who can be treated at Omni Addiction & Mental Health Services, LLC? ",
+      answer:
+        "Adults aged 18-65 can receive treatment for mental health and/or substance use issues. Adolescents aged 14 and up with substance use issues can receive treatment at Omni AMH. We have recently added services to include providing therapy for children as young as 11 years old with mental health issues.",
+    },
+    {
+      question: "What treatment issues do you address? ",
+      answer: [
+        "Anxiety",
+        "Bipolar Disorders",
+        "Depression",
+        "General Support",
+        "Grief/Bereavement",
+        "LGBTQ Issues",
+        "Men's Issues",
+        "Obesssive Compulsive Disorders",
+        "Postraumatic Stress Disorder",
+        "Substance Use",
+        "Women's Issue",
+        "And more...",
+      ],
+    },
+    {
+      question:
+        "Does Omni Addiction & Mental Health Services offer virtual sessions? ",
+      answer: "Yes Omni offers both virtual and in-person sessions.",
+    },
+    {
       question: "What are your rates for services?",
       answer: [
         "Individual therapy up to $135.00/ session, after intake",
@@ -45,11 +73,11 @@ function Faq() {
   ];
   return (
     <div className=" py-16 bg-[#018183]" id="faqs">
-      <div className="w-[90vw] max-w-[1400px] mx-auto flex justify-between items-center flex-col md:flex-row">
-        <h3 className="text-center md:text-left text-5xl w-full text-white font-semibold py-12 flex flex-col gap-4">
+      <div className="w-[90vw] max-w-[1400px] mx-auto flex justify-between items-center flex-col md:flex-row gap-24">
+        <h3 className="text-center md:text-left text-5xl  text-white font-semibold py-12 flex flex-col gap-4">
           <span>Frequently</span> <span>Asked</span> <span>Questions</span>
         </h3>
-        <div className="flex flex-col w-full gap-4 ">
+        <div className="grid grid-cols-2 w-full gap-4 ">
           {faqs.map((faq, index) => {
             return <SingleFaq key={index} {...faq} />;
           })}
