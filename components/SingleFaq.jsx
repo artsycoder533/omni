@@ -3,7 +3,7 @@ import { isArray } from "util";
 
 function SingleFaq({ question, answer }) {
   return (
-    <details className=" p-6 transition-all duration-300 ease-in-out bg-white rounded-lg">
+    <details className=" p-6 transition-all duration-300 ease-in-out bg-white rounded-lg cursor-pointer">
       <summary className="transition-all duration-300 ease-in-out font-semibold">
         {question}
       </summary>
