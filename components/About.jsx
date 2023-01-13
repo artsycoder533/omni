@@ -5,9 +5,9 @@ import headshot from '../public/images/headshot-placeholder.jpg'
 function About() {
   return (
     <div
-      className="bg-white pb-16 flex flex-col items-center"
+      className="bg-white pb-16 flex flex-col items-center pt-24"
       id="about-us">
-      <h2 className="text-5xl text-center py-16">About Us</h2>
+      <h2 className="text-5xl text-center pb-16">About Us</h2>
       <div className="flex flex-col lg:flex-row w-[90vw] max-w-[1400px] mx-auto gap-12 ">
         <div className="text-lg mb-8 text-center overflow-hidden">
           <Image

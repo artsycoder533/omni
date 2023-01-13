@@ -4,9 +4,9 @@ import { FaPhone, FaEnvelope, FaClock, FaMapMarkerAlt } from "react-icons/fa";
 function Contact() {
   return (
     <div
-      className="min-h-screen flex flex-col justify-between text-white"
+      className="min-h-screen flex flex-col justify-between text-white pt-24"
       id="contact">
-      <h2 className="text-5xl text-center py-16">Contact Us Today!</h2>
+      <h2 className="text-5xl text-center pb-16">Contact Us Today!</h2>
       <div className="flex flex-col xl:flex-row max-w-[1400px] mx-auto w-[90vw]  lg:gap-24">
         <form className="flex flex-col max-w-[600px] mx-auto pb-16 gap-8">
           <div className="flex flex-col md:flex-row gap-8 w-full">

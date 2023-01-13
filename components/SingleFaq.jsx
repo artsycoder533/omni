@@ -10,7 +10,7 @@ function SingleFaq({ question, answer }) {
       {!isArray(answer) ? (
         <p className="p-2 mt-2">{answer}</p>
       ) : (
-        answer.map((el) => <li className="p-2 mt-2">{el}</li>)
+        answer.map((el) => <li className="p-1 mt-2 list-outside">{el}</li>)
       )}
     </details>
   );

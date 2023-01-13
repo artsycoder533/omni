@@ -34,18 +34,18 @@ function Services() {
     },
   ];
   return (
-    <div className="bg-white min-h-screen" id="services">
-      <div className="w-[90vw] max-w-[1400px] mx-auto flex flex-col border-b-2 pb-16">
-        <h2 className="text-5xl text-center py-16">Our Services</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-x-10 gap-y-10 border ">
+    <div className="bg-white min-h-screen pt-24" id="services">
+      <div className="w-[90vw] max-w-[1400px] mx-auto flex flex-col items-center border-b-2 pb-16">
+        <h2 className="text-5xl text-center pb-16">Our Services</h2>
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-4">
           {services.map((service, index) => {
             return <ServiceCard key={index} {...service} />;
           })}
         </div>
-        <button className="bg-[#4A076D] text-white self-center my-8">
+        <button className="bg-[#4A076D] text-white self-center mt-16">
           Schedule Apppointment
         </button>
-        <h3 className="text-4xl text-center py-16">Coming Soon...</h3>
+        <h3 className="text-4xl text-center py-12">Coming Soon...</h3>
 
         <ul className="w-[90vw] max-w-[1400px] mx-auto flex  flex-col justify-center gap-4 text-center list-disc list-inside">
           <li>VASAP (Virginia Alcohol Safety Action Program) Classes</li>
