@@ -13,6 +13,7 @@ function Contact() {
           method="POST"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
+          netlify
         className="w-full">
           <input type="hidden" name="form-name" value="omni" />
           <div className="flex flex-col md:flex-row gap-8 w-full">
