@@ -7,7 +7,7 @@ import { useEffect } from "react";
 
 
 const navItems = [
-  { link: "Home", path: "/#home" },
+  { link: "Home", path: "#/" },
   { link: "About Us", path: "#about-us" },
   { link: "Services", path: "#services" },
   { link: "Contact", path: "#contact" },

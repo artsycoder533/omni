@@ -37,7 +37,7 @@ function Services() {
     <div className="bg-white min-h-screen" id="services">
       <div className="w-[90vw] max-w-[1400px] mx-auto flex flex-col border-b-2 pb-16">
         <h2 className="text-5xl text-center py-16">Our Services</h2>
-        <div className="flex gap-8 flex-wrap justify-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-x-10 gap-y-10 border ">
           {services.map((service, index) => {
             return <ServiceCard key={index} {...service} />;
           })}
@@ -60,3 +60,4 @@ function Services() {
 export default Services
 
 //grid-rows-4 sm:grid-rows-2 sm:grid-cols-2 lg:grid-rows-1 xl:grid-cols-4 gap-8
+//flex gap-8 flex-wrap justify-center

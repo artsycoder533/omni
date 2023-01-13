@@ -7,7 +7,7 @@ function Contact() {
       className="min-h-screen flex flex-col justify-between text-white"
       id="contact">
       <h2 className="text-5xl text-center py-16">Contact Us Today!</h2>
-      <div className="flex flex-col md:flex-row max-w=[1400px] mx-auto w-[90vw] md:w-auto md:gap-24">
+      <div className="flex flex-col xl:flex-row max-w-[1400px] mx-auto w-[90vw]  lg:gap-24">
         <form className="flex flex-col max-w-[600px] mx-auto pb-16 gap-8">
           <div className="flex flex-col md:flex-row gap-8 w-full">
             <div className="flex flex-col w-full">
@@ -44,8 +44,8 @@ function Contact() {
           </button>
         </form>
         <div className="flex flex-col mb-16">
-          <div className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 w-full justify-between">
-            <div className="md:border-[#1A8C91] flex flex-col justify-center items-center p-4 md:bg-[#018183]">
+          <div className="grid grid-cols-1 sm:grid-cols-2 sm:grid-rows-2  w-full justify-between">
+            <div className="flex flex-col justify-center items-center p-4 sm:bg-[#018183]">
               <h3 className="flex gap-3">
                 <FaPhone className="text-7xl text-[#BDE11A] mb-2" />
               </h3>
@@ -67,7 +67,7 @@ function Contact() {
               </h3>
               <span>Mon - Fri: 8:00AM to 5:00PM</span>
             </div>
-            <div className="md:bg-[#018183] flex flex-col justify-center items-center p-4">
+            <div className="sm:bg-[#018183] flex flex-col justify-center items-center p-4">
               <h3 className="flex gap-3">
                 <FaMapMarkerAlt className="text-7xl text-[#BDE11A] mb-2" />
               </h3>
