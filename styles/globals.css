@@ -13,6 +13,9 @@
     @apply border px-5 py-4 rounded-md uppercase font-medium tracking-wider
   }
   input, textarea {
-    @apply p-3 text-base text-black
+    @apply p-3 text-lg text-white bg-[#018183] placeholder:text-white
+  }
+  label {
+    @apply text-lg pb-2
   }
 }
