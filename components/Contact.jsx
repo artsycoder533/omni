@@ -1,5 +1,6 @@
 import React from "react";
-import { FaPhone, FaEnvelope, FaClock, FaMapMarkerAlt } from "react-icons/fa";
+
+import ContactInfo from "./ContactInfo";
 import GoogleMap from "./GoogleMap";
 
 function Contact() {
@@ -16,7 +17,7 @@ function Contact() {
           data-netlify="true"
           data-netlify-honeypot="bot-field"
           netlify
-        className="w-full">
+          className="w-full">
           <input type="hidden" name="form-name" value="omni" />
           <div className="flex flex-col md:flex-row gap-8 w-full">
             <div className="flex flex-col w-full">
@@ -54,41 +55,7 @@ function Contact() {
           </button>
         </form>
         <div className="flex flex-col mb-16 w-full">
-          <div className="grid grid-cols-1 sm:grid-cols-2 sm:grid-rows-2  w-full justify-between">
-            <div className="flex flex-col justify-center items-center p-4 sm:bg-[#018183]">
-              <h3 className="flex gap-3">
-                <FaPhone className="text-7xl text-[#BDE11A] mb-2" />
-              </h3>
-              <span>
-                <a href="tel:4342535617">(434)-253-5617</a>
-              </span>
-            </div>
-            <div className=" border-[#1A8C91] flex flex-col justify-center items-center p-4">
-              <h3 className="flex gap-3">
-                <FaEnvelope className="text-7xl text-[#BDE11A]" />
-              </h3>
-              <span>
-                <a href="mailto:lateshia@omniamh.com">lateshia@omniamh.com</a>
-              </span>
-            </div>
-            <div className=" border-[#1A8C91] flex flex-col justify-center items-center p-4">
-              <h3 className="flex gap-3">
-                <FaClock className="text-7xl text-[#BDE11A] mb-2" />
-              </h3>
-              <span>Mon - Fri: 8:00AM to 5:00PM</span>
-            </div>
-            <div className="sm:bg-[#018183] flex flex-col justify-center items-center p-4">
-              <h3 className="flex gap-3">
-                <FaMapMarkerAlt className="text-7xl text-[#BDE11A] mb-2" />
-              </h3>
-              <address className="flex flex-col text-center">
-                <span>Omni Addiction & Mental Health Services</span>
-                <span>102 E. Hicks Street</span>
-                <span>Suite 100</span>
-                <span>Lawrenceville, VA 23868</span>
-              </address>
-            </div>
-          </div>
+          <ContactInfo />
           <GoogleMap />
         </div>
       </div>
