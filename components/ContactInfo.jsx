@@ -3,7 +3,7 @@ import { FaPhone, FaEnvelope, FaClock, FaMapMarkerAlt } from "react-icons/fa";
 
 function ContactInfo() {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 sm:grid-rows-2  w-full justify-between">
+    <div className="grid grid-cols-1 sm:grid-cols-2 sm:grid-rows-2  w-full justify-between md:mt-16 lg:mt-0">
       <div className="flex flex-col justify-center items-center p-4 sm:bg-[#018183]">
         <h3 className="flex gap-3">
           <FaPhone className="text-7xl text-[#BDE11A] mb-2" />
