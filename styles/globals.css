@@ -10,7 +10,7 @@
     @apply scroll-smooth
   }
   button {
-    @apply border px-5 py-4 rounded-md uppercase font-medium tracking-wider
+    @apply border px-5 py-4 rounded-md uppercase font-medium tracking-wider hover:text-[#BDE11A]
   }
   input, textarea {
     @apply p-3 text-lg text-white bg-[#018183] placeholder:text-white

@@ -6,6 +6,7 @@ import Services from "../components/Services";
 import Faq from "../components/Faqs";
 import Contact from "../components/Contact";
 import Mission from "../components/Mission";
+import ScrollToTop from "../components/ScrollToTop";
 
 export default function Home() {
   return (
@@ -56,6 +57,7 @@ export default function Home() {
         <About />
         <Contact />
         <Faq />
+        <ScrollToTop />
       </main>
     </>
   );

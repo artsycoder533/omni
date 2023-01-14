@@ -1,9 +1,11 @@
 import React from 'react'
+import { useEffect } from 'react';
 // import Image from 'next/image'
 // import logo from '../public/images/logo.png'
 // import hero from '../public/images/hero.jpg'
 
 function Hero() {
+
   return (
     <section
       className="min-h-[calc(70vh-91px)] sm:min-h-[calc(80vh-91px)] w-full text-white relative bg-gray-900 flex xl:rounded-tl-full xl:rounded-br-full overflow-clip mt-[91px] py-4"
@@ -11,7 +13,7 @@ function Hero() {
       {/* <Image src={hero} fill className="-z-10 mix-blend-multiply" alt="" /> */}
       <div className="max-w-[1400px] mx-auto flex items-center justify-center w-full">
         <div className="uppercase bold flex flex-col tracking-tighter text-center">
-          <p className="text-5xl sm:text-7xl md:text-8xl mb-4 first-letter:text-[#9C9EA0]">
+          <p className="text-5xl sm:text-7xl md:text-8xl mb-4 first-letter:text-[#9C9EA0]" data-replace="{translate-y-12: translate-y-0}">
             Helping.
           </p>
           <p className="text-6xl sm:text-8xl md:text-9xl first-letter:text-[#1A8C91]">
