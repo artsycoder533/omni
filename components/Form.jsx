@@ -44,17 +44,21 @@ function Form() {
           required
           className="border-b"></textarea>
       </div>
-      <button type="submit" className="bg-[#1A8C91] border-none self-end">
-        Send Message
+      <button className="btn relative inline-flex items-center justify-start overflow-hidden transition-all bg-[#BDE11A] rounded-md hover:bg-white group border-none text-white self-end">
+        {/* purple box */}
+        <span className="w-0 h-0 rounded-md bg-[#601A7F] absolute top-0 left-0 ease-out duration-500 transition-all group-hover:w-full group-hover:h-full -z-1 hover:border-[#601A7F] border"></span>
+        <span className="w-full text-black transition-colors duration-300 ease-in-out group-hover:text-white z-10 border-none">
+          Schedule Appointment
+        </span>
       </button>
-      <p className="bg-[#B5DD00] p-4 text-black">
-        * By submitting this form via this web portal, you acknowledge and accept
-        that risks of communicating your health information via this unencrypted
-        email and electronic messaging and wish to continue despite those risks.
-        By clicking &quot;Yes, I want to submit this form&quot;, you agree to
-        hold Omni Addiction & Mental Health Services harmless for unauthorized
-        use, disclosure, or access of your protected health information sent via
-        this electronic means.
+      <p className="text-white">
+        * By submitting this form via this web portal, you acknowledge and
+        accept that risks of communicating your health information via this
+        unencrypted email and electronic messaging and wish to continue despite
+        those risks. By clicking &quot;Yes, I want to submit this form&quot;,
+        you agree to hold Omni Addiction & Mental Health Services harmless for
+        unauthorized use, disclosure, or access of your protected health
+        information sent via this electronic means.
       </p>
     </form>
   );

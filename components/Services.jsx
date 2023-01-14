@@ -43,9 +43,13 @@ function Services() {
             return <ServiceCard key={index} {...service} />;
           })}
         </div>
-        <button className="bg-[#4A076D] text-white self-center mt-16">
-          Schedule Apppointment
-        </button>
+       <button className="btn relative inline-flex items-center justify-start overflow-hidden transition-all bg-[#BDE11A] rounded-md hover:bg-white group border-none text-white mt-16">
+              {/* purple box */}
+              <span className="w-0 h-0 rounded-md bg-[#601A7F] absolute top-0 left-0 ease-out duration-500 transition-all group-hover:w-full group-hover:h-full -z-1 hover:border-[#601A7F] border"></span>
+              <span className="w-full text-black transition-colors duration-300 ease-in-out group-hover:text-white z-10 border-none">
+                Schedule Appointment
+              </span>
+            </button>
         <h3 className="text-4xl text-center py-12">Coming Soon...</h3>
 
         <ul className="w-[90vw] max-w-[1400px] mx-auto flex flex-col justify-center items-center gap-4 text-center list-style-none">

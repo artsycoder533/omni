@@ -13,7 +13,9 @@ function Hero() {
       {/* <Image src={hero} fill className="-z-10 mix-blend-multiply" alt="" /> */}
       <div className="max-w-[1400px] mx-auto flex items-center justify-center w-full">
         <div className="uppercase bold flex flex-col tracking-tighter text-center">
-          <p className="text-5xl sm:text-7xl md:text-8xl mb-4 first-letter:text-[#9C9EA0]" data-replace="{translate-y-12: translate-y-0}">
+          <p
+            className="text-5xl sm:text-7xl md:text-8xl mb-4 first-letter:text-[#9C9EA0]"
+            data-replace="{translate-y-12: translate-y-0}">
             Helping.
           </p>
           <p className="text-6xl sm:text-8xl md:text-9xl first-letter:text-[#1A8C91]">
@@ -23,10 +25,17 @@ function Hero() {
             Caring.
           </p>
           <div className="mt-12 flex flex-col md:flex-row justify-center gap-6">
-            <button className=" bg-[#601A7F] border-none">
+            {/* <button className=" bg-[#601A7F] border-none">
               Schedule Appointment
+            </button> */}
+            <button className="btn relative inline-flex items-center justify-start overflow-hidden transition-all bg-[#BDE11A] rounded-md hover:bg-white group border-none text-white">
+              {/* purple box */}
+              <span className="w-0 h-0 rounded-md bg-[#601A7F] absolute top-0 left-0 ease-out duration-500 transition-all group-hover:w-full group-hover:h-full -z-1 hover:border-[#601A7F] border"></span>
+              <span className="w-full text-black transition-colors duration-300 ease-in-out group-hover:text-white z-10 border-none">
+                Schedule Appointment
+              </span>
             </button>
-            <button>Learn More</button>
+            <button className="hover:border-[#BDE11A]">Learn More</button>
           </div>
         </div>
         {/* <Image src={logo} alt="" priority width={600} height={600} /> */}
