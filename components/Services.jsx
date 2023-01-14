@@ -4,6 +4,7 @@ import individual from '../public/images/individual.jpg'
 import group from '../public/images/group.jpg'
 import family from '../public/images/family.jpg'
 import supervision from '../public/images/supervision.jpg'
+import { GiCheckMark } from "react-icons/gi";
 
 function Services() {
 
@@ -35,7 +36,7 @@ function Services() {
   ];
   return (
     <div className="bg-white min-h-screen pt-24" id="services">
-      <div className="w-[90vw] max-w-[1400px] mx-auto flex flex-col items-center border-b-2 pb-16">
+      <div className="w-[90vw] max-w-[1400px] mx-auto flex flex-col items-center justify-between pb-24">
         <h2 className="text-5xl text-center pb-16">Our Services</h2>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-4">
           {services.map((service, index) => {
@@ -47,10 +48,19 @@ function Services() {
         </button>
         <h3 className="text-4xl text-center py-12">Coming Soon...</h3>
 
-        <ul className="w-[90vw] max-w-[1400px] mx-auto flex  flex-col justify-center gap-4 text-center list-disc list-inside">
-          <li>VASAP (Virginia Alcohol Safety Action Program) Classes</li>
-          <li>LPC Supervision</li>
-          <li>LSATP Supervision</li>
+        <ul className="w-[90vw] max-w-[1400px] mx-auto flex flex-col justify-center items-center gap-4 text-center list-style-none">
+          <li className="flex gap-2">
+            <GiCheckMark className="text-[#BDE11A]" /> VASAP (Virginia Alcohol
+            Safety Action Program) Classes
+          </li>
+          <li className="flex gap-2">
+            <GiCheckMark className="text-[#BDE11A]" />
+            LPC Supervision
+          </li>
+          <li className="flex gap-2">
+            <GiCheckMark className="text-[#BDE11A]" />
+            LSATP Supervision
+          </li>
         </ul>
       </div>
     </div>
