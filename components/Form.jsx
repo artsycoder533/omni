@@ -8,7 +8,7 @@ function Form() {
       action="/"
       data-netlify="true"
       data-netlify-honeypot="bot-field"
-      netlify
+      netlify="true"
       className="w-full flex flex-col gap-8">
       <input type="hidden" name="form-name" value="omni" />
       <div className="flex flex-col md:flex-row gap-8 w-full">

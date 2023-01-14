@@ -36,7 +36,7 @@ function Footer() {
     return date.getFullYear();
   };
   return (
-    <footer className="flex flex-col justify-center items-center sticky top-full bg-black text-white py-2">
+    <footer className="flex flex-col justify-center items-center sticky top-full bg-black text-white py-4">
       <div className="w-[90vw] md:max-w-[1400px] flex flex-col gap-6 lg:flex-row justify-center md:justify-between items-center ">
         <Image src={logo} width={275} height={275} alt="" />
         <div className="w-full md:w-auto">
