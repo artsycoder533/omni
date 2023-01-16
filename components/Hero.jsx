@@ -17,7 +17,7 @@ function Hero() {
       <div className="max-w-[1400px] mx-auto flex items-center justify-center w-full mt-[91px] pb-8">
         <div className="uppercase bold flex flex-col tracking-tighter text-center">
           <p
-            className="text-5xl sm:text-7xl md:text-8xl mb-4 first-letter:text-[#9C9EA0]"
+            className="text-5xl sm:text-7xl md:text-8xl mb-4 first-letter:text-[#BDE11A]"
             data-replace="{translate-y-12: translate-y-0}">
             Helping.
           </p>
