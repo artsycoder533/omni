@@ -6,7 +6,7 @@ import GoogleMap from "./GoogleMap";
 function Contact() {
   return (
     <div
-      className="min-h-screen flex flex-col gap-8 text-white pt-24 "
+      className="flex flex-col gap-8 text-white pt-24 pb-24"
       id="contact">
       <h2 className="text-5xl text-center pb-16">Contact Us Today!</h2>
       <div className="flex flex-col xl:flex-row max-w-[1400px] mx-auto w-[90vw] lg:gap-24">

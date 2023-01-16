@@ -36,7 +36,7 @@ function Services() {
     },
   ];
   return (
-    <div className="bg-white min-h-screen pt-24" id="services">
+    <div className="bg-white  pt-24" id="services">
       <div className="w-[90vw] max-w-[1400px] mx-auto flex flex-col items-center justify-between pb-24">
         <h2 className="text-5xl text-center pb-16">Our Services</h2>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-4">
