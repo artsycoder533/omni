@@ -51,16 +51,16 @@ function Services() {
             </span>
           </button>
           <h3 className="text-4xl text-center py-12">Coming Soon...</h3>        
-          <ul className="w-[90vw] max-w-[1400px] mx-auto flex flex-col justify-center items-center gap-4 text-center list-style-none">
-            <li className="flex gap-2">
+          <ul className="w-[90vw] max-w-[1400px] mx-auto flex flex-col md:justify-center md:items-center gap-4 md:text-center list-style-none">
+            <li className="flex gap-1 ">
               <GiCheckMark className="text-[#BDE11A]" /> VASAP (Virginia Alcohol
               Safety Action Program) Classes
             </li>
-            <li className="flex gap-2">
+            <li className="flex gap-1">
               <GiCheckMark className="text-[#BDE11A]" />
               LPC Supervision
             </li>
-            <li className="flex gap-2">
+            <li className="flex gap-1">
               <GiCheckMark className="text-[#BDE11A]" />
               LSATP Supervision
             </li>

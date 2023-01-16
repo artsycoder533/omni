@@ -48,7 +48,7 @@ function Form() {
         {/* purple box */}
         <span className="w-0 h-0 rounded-md bg-[#601A7F] absolute top-0 left-0 ease-out duration-500 transition-all group-hover:w-full group-hover:h-full -z-1 hover:border-[#601A7F] border"></span>
         <span className="w-full text-black transition-colors duration-300 ease-in-out group-hover:text-white z-10 border-none">
-          Schedule Appointment
+          Send Message
         </span>
       </button>
       <p className="text-white">
