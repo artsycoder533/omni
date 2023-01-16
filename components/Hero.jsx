@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import { AiOutlineArrowDown } from "react-icons/ai";
 import { motion } from "framer-motion";
 import CalendlyButton from "./CalendlyButton";
 import { PopupModal } from "react-calendly";
@@ -31,8 +32,8 @@ function Hero() {
             <Link
               href="#why-therapy"
               scroll={false}
-              className="border px-5 py-4 rounded-md uppercase font-medium tracking-wider hover:text-[#BDE11A] hover:border-[#BDE11A]">
-              Learn More
+              className="border px-5 py-4 rounded-md uppercase font-medium tracking-wider hover:text-[#BDE11A] hover:border-[#BDE11A] flex items-center gap-2 animate-bounce">
+              Learn More <AiOutlineArrowDown className="text-lg" />
             </Link>
           </div>
         </div>
