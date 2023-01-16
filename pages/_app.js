@@ -6,17 +6,17 @@ const openSans = Open_Sans({ subsets: ["latin"], variable: "--font-openSans" });
 
 export default function App({ Component, pageProps }) {
   return (
-    <Layout>
-      <main>
-        <style jsx global>
-          {`
-            :root {
-              --openSans-font: ${openSans.style.fontFamily};
-            }
-          `}
-        </style>
-        <Component {...pageProps} />
-      </main>
-    </Layout>
+      <Layout>
+        <main>
+          <style jsx global>
+            {`
+              :root {
+                --openSans-font: ${openSans.style.fontFamily};
+              }
+            `}
+          </style>
+          <Component {...pageProps} />
+        </main>
+      </Layout>
   );
 }
