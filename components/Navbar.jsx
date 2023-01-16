@@ -58,7 +58,7 @@ if (open) {
           const { link, path } = navItem;
           return (
             <li key={index}>
-              <Link className={"font-normal tracking-wide py-3 text-lg " + (open ? "text-2xl" : "")} href={path} scroll={false}>
+              <Link className={"font-normal tracking-wide py-3 text-lg " + (open ? "text-2xl" : "")} href={path} scroll={false} onClick={() => setOpen(false)}>
                 {link}
               </Link>
             </li>

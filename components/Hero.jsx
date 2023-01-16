@@ -1,4 +1,5 @@
 import React from 'react'
+import {motion} from 'framer-motion'
 // import Image from 'next/image'
 // import logo from '../public/images/logo.png'
 // import hero from '../public/images/hero.jpg'

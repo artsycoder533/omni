@@ -5,7 +5,6 @@ import group from '../public/images/group.jpg'
 import family from '../public/images/family.jpg'
 import supervision from '../public/images/supervision.jpg'
 import { GiCheckMark } from "react-icons/gi";
-import Head from 'next/head';
 
 function Services() {
 
@@ -58,7 +57,7 @@ function Services() {
               src="https://calendly.com/njohnson533"
               width="800"
               height="500"
-              frameborder="0"></iframe>
+              frameBorder="0"></iframe>
           </div>
           
           <ul className="w-[90vw] max-w-[1400px] mx-auto flex flex-col justify-center items-center gap-4 text-center list-style-none">
