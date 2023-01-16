@@ -50,16 +50,7 @@ function Services() {
               Schedule Appointment
             </span>
           </button>
-          <h3 className="text-4xl text-center py-12">Coming Soon...</h3>
-          {/* calendly div */}
-          <div style={{ height: "800px" }}>
-            <iframe
-              src="https://calendly.com/njohnson533"
-              width="800"
-              height="500"
-              frameBorder="0"></iframe>
-          </div>
-          
+          <h3 className="text-4xl text-center py-12">Coming Soon...</h3>        
           <ul className="w-[90vw] max-w-[1400px] mx-auto flex flex-col justify-center items-center gap-4 text-center list-style-none">
             <li className="flex gap-2">
               <GiCheckMark className="text-[#BDE11A]" /> VASAP (Virginia Alcohol

@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import headshot from '../public/images/headshot-placeholder.jpg'
+import headshot from '../public/images/headshot.jpg'
 
 function About() {
   return (
