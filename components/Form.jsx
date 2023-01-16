@@ -5,7 +5,7 @@ function Form() {
     <form
       name="omni"
       method="POST"
-      action="/"
+      // action="/"
       data-netlify="true"
       data-netlify-honeypot="bot-field"
       netlify="true"

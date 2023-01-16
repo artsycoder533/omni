@@ -45,7 +45,9 @@ function Footer() {
               const { link, path } = footerLink;
               return (
                 <li key={index} className="py-3">
-                  <Link href={path}>{link}</Link>
+                  <Link href={path} scroll={false}>
+                    {link}
+                  </Link>
                 </li>
               );
             })}

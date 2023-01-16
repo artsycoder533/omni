@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import { motion } from "framer-motion";
 import CalendlyButton from "./CalendlyButton";
 import { PopupModal } from "react-calendly";
@@ -26,8 +27,13 @@ function Hero() {
             Caring.
           </p>
           <div className="mt-12 flex flex-col md:flex-row justify-center gap-6 items-center">
-            <CalendlyButton />
-            <button className="hover:border-[#BDE11A]">Learn More</button>
+            {/* <CalendlyButton /> */}
+            <Link
+              href="#why-therapy"
+              scroll={false}
+              className="border px-5 py-4 rounded-md uppercase font-medium tracking-wider hover:text-[#BDE11A] hover:border-[#BDE11A]">
+              Learn More
+            </Link>
           </div>
         </div>
         {/* <Image src={logo} alt="" priority width={600} height={600} /> */}

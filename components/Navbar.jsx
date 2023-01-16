@@ -4,6 +4,7 @@ import Image from "next/image";
 import logo from "../public/images/logo.png";
 import Hamburger from "./Hamburger";
 import { useEffect } from "react";
+import CalendlyButton from "./CalendlyButton";
 
 
 const navItems = [
@@ -41,7 +42,7 @@ if (open) {
           height={75}
           priority
         />
-        <h1 className="text-xl font-semibold text-[#601A7F] hidden lg:block">
+        <h1 className="text-xl font-semibold text-[#601A7F] hidden xl:block">
           Omni Addiction & Mental Health Services
         </h1>
       </div>
@@ -64,6 +65,7 @@ if (open) {
             </li>
           );
         })}
+        <li><CalendlyButton/></li>
       </ul>
     </nav>
   );
