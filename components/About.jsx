@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import headshot from '../public/images/headshot.jpg'
+import CalendlyButton from './CalendlyButton';
 
 function About() {
   return (
@@ -19,7 +20,8 @@ function About() {
             alt="LaTeshia A. Gilliam, LPC, LSATP/Owner"
           />
           <h2 className="mt-2">LaTeshia A. Gilliam, LPC, LSATP/Owner</h2>
-          <p>SUD/MH Therapist</p>
+          <p className="mb-4">SUD/MH Therapist</p>
+          <CalendlyButton />
         </div>
         <div className="flex flex-col gap-8 leading-8 w-full">
           <p className="first-letter:font-bold first-letter:text-8xl first-letter:mr-3 first-letter:float-left">
