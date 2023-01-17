@@ -21,11 +21,11 @@ const heroVariants = {
     y: 0,
     scale: 1,
     transition: {
-      type: "spring",
       // delay: 0.5,
-      when: "beforeChildren",
-      staggerChildren: 0.4,
-      // stiffness: 115,
+      type: "spring",
+      // when: "beforeChildren",
+      staggerChildren: 0.2,
+      stiffness: 40,
     },
   },
 };
