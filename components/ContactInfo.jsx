@@ -24,7 +24,10 @@ function ContactInfo() {
         <h3 className="flex gap-3">
           <FaClock className="text-7xl text-[#BDE11A] mb-2" />
         </h3>
-        <span>Mon - Fri: 8:00AM to 5:00PM</span>
+        <div className='flex flex-col text-center'>
+          <span>Mon - Thurs: 9:00AM to 6:00PM</span>
+          <span>Fri - 9:00AM to 1:00PM</span>
+        </div>
       </div>
       <div className="flex flex-col gap-4 items-center p-4">
         <h3 className="flex gap-3">
