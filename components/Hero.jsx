@@ -2,8 +2,8 @@ import React from "react";
 import Link from "next/link";
 import { AiOutlineArrowDown } from "react-icons/ai";
 import { motion } from "framer-motion";
-import CalendlyButton from "./CalendlyButton";
-import { PopupModal } from "react-calendly";
+// import CalendlyButton from "./CalendlyButton";
+// import { PopupModal } from "react-calendly";
 // import Image from 'next/image'
 // import logo from '../public/images/logo.png'
 // import hero from '../public/images/hero.jpg'

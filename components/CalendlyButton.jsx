@@ -26,7 +26,7 @@ function CalendlyButton() {
       </button>
       {open && (
         <PopupModal
-          url="https://calendly.com/njohnson533"
+          url="https://calendly.com/lateshia-2"
           onModalClose={() => setOpen(false)}
           open={() => setOpen(true)}
           rootElement={

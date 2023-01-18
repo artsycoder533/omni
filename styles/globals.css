@@ -3,9 +3,6 @@
 @tailwind utilities;
 
 @layer base {
-  /* body {
-    @apply flex flex-col justify-between border-red-600
-  } */
   html {
     @apply scroll-smooth
   }
