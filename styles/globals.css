@@ -19,3 +19,21 @@
     @apply text-lg pb-2
   }
 }
+
+/* width */
+    ::-webkit-scrollbar {
+    width: 17px;
+    }
+    /* Track */
+    ::-webkit-scrollbar-track {
+    background: #1A8B90;
+    border: 1px solid #1A8B90;
+    }
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+    background: #BCE01A;
+    }
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+    border: 1px solid #BCE01A;
+    }

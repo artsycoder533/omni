@@ -18,6 +18,7 @@ export default function Home() {
         <meta
           name="description"
           content="We are Omni Addiction & Mental Health Services, a private behavioral health clinic offering outpatient MentalHealth and Substance Use Therapy."
+          key="desc"
         />
         <meta name="author" content="LaTeshia A. Gilliam, LPC, LSATP/Owner" />
         <meta
@@ -28,6 +29,11 @@ export default function Home() {
           property="og:title"
           content="Omni Addiction & Mental Health Services"
         />
+        <meta
+          property="og:description"
+          content="We are Omni Addiction & Mental Health Services, a private behavioral health clinic offering outpatient MentalHealth and Substance Use Therapy."
+        />
+        <meta property="og:image" content=""/>
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="apple-touch-icon"
