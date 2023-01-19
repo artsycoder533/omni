@@ -41,7 +41,7 @@ function Faq() {
       ],
     },
     {
-      question: "What are the benefits of treatment? ",
+      question: "What are the some benefits of treatment? ",
       answer:
         "Improved family & intimate relationships, Improved quality of life, Better Coping skills, Improved Communication skills, Substance Use cessation.",
     },
@@ -63,7 +63,7 @@ function Faq() {
     {
       question: "What is your cancellation policy?",
       answer:
-        "If you need to cancel or reschedule a session, I ask that you provide 24 hours’ notice. If you miss a session without canceling, or cancel with less than 24 hours’ notice, my policy is to collect $75.00 (unless we both agree that you were unable to attend due to circumstances beyond your control). It is important to note that insurance companies do not provide reimbursement for cancelled sessions. If you are paying via private insurance, you may be assessed a No Show/Late Cancel Fee per a third-party provider network, such as Sondermind or Headway. I will work to find another time to reschedule the appointment. If you are late, your appointment still needs to end on time.",
+        "If you need to cancel or reschedule a session, I ask that you provide 24 hours’ notice. If you miss a session without canceling, or cancel with less than 24 hours’ notice, my policy is to collect $75.00 (unless we both agree that you were unable to attend due to circumstances beyond your control). It is important to note that insurance companies do not provide reimbursement for cancelled sessions. If you are paying via private insurance, you may be assessed a No Show/Late Cancel Fee per a third-party provider network, such as Sondermind or Headway. I will work to find another time to reschedule the appointment. ",
     },
     {
       question: "What if I am late to my appointment?",

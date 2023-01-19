@@ -37,7 +37,7 @@ function Services() {
     },
     {
       title: "VASAP",
-      description: "This facility is an approved provider of the Virginia Alcohol Safety Action Program serviced by the Commission of VASAP.  Contact us for more information!",
+      description: "This facility is an approved provider of the Virginia Alcohol Safety Action Program serviced by the Commission on VASAP.  Contact us for more information!",
       src: vasap,
     },
   ];
@@ -56,10 +56,6 @@ function Services() {
 
         <h3 className="text-4xl text-center py-12">Coming Soon...</h3>
         <ul className="w-[90vw] max-w-[1400px] mx-auto flex flex-col md:justify-center md:items-center gap-4 md:text-center list-style-none">
-          <li className="flex gap-1 ">
-            <GiCheckMark className="text-[#BDE11A]" /> VASAP (Virginia Alcohol
-            Safety Action Program) Classes
-          </li>
           <li className="flex gap-1">
             <GiCheckMark className="text-[#BDE11A]" />
             LPC Supervision
