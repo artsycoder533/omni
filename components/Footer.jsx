@@ -45,7 +45,10 @@ function Footer() {
               const { link, path } = footerLink;
               return (
                 <li key={index} className="py-3">
-                  <Link href={path} scroll={false}>
+                  <Link
+                    href={path}
+                    scroll={false}
+                    className="hover:underline py-2 hover:text-[#1A8B90]">
                     {link}
                   </Link>
                 </li>
@@ -69,7 +72,7 @@ function Footer() {
           href="https://www.natashajohnson.dev"
           target="_blank"
           rel="noopener noreferrer"
-          className="underline">
+          className="underline py-2 hover:text-[#1A8B90]">
           Natasha Johnson
         </Link>
       </p>
