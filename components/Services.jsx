@@ -3,6 +3,7 @@ import ServiceCard from './ServiceCard';
 import individual from '../public/images/individual.jpg'
 import group from '../public/images/group.jpg'
 import family from '../public/images/family.jpg'
+import vasap from '../public/images/vasap.jpg'
 import supervision from '../public/images/supervision.jpg'
 import { GiCheckMark } from "react-icons/gi";
 import CalendlyButton from './CalendlyButton';
@@ -34,19 +35,24 @@ function Services() {
         "Offers one on one supervision toward meeting the requirements set forth by the Commonwealth of VA for those seeking to earn certification as a Substance Abuse Counselor.",
       src: supervision,
     },
+    {
+      title: "VASAP",
+      description: "This facility is an approved provider of the Virginia Alcohol Safety Action Program services by the Comission of VASAP.  Contact us for more information!",
+      src: vasap,
+    },
   ];
   return (
     <div className="bg-white  pt-24" id="services">
       <div className="w-[90vw] max-w-[1400px] mx-auto flex flex-col items-center justify-between pb-24">
         <h2 className="text-5xl text-center pb-16">Our Services</h2>
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-4">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
           {services.map((service, index) => {
             return <ServiceCard key={index} {...service} />;
           })}
         </div>
-        <div className="mt-16">
+        {/* <div className="mt-16">
           <CalendlyButton />
-        </div>
+        </div> */}
 
         <h3 className="text-4xl text-center py-12">Coming Soon...</h3>
         <ul className="w-[90vw] max-w-[1400px] mx-auto flex flex-col md:justify-center md:items-center gap-4 md:text-center list-style-none">

@@ -1,20 +1,11 @@
 import React, { useState } from "react";
-import { PopupButton, PopupModal } from "react-calendly";
+import { PopupModal } from "react-calendly";
 
 function CalendlyButton() {
   const [open, setOpen] = useState(false);
 
   return (
     <>
-      {/* <PopupButton
-        url="https://calendly.com/njohnson533"
-        rootElement={
-          typeof window !== "undefined"
-            ? document.getElementById("__next")
-            : null
-        }
-        text="Schedule Appointment"
-        className="items-center overflow-hidden transition-all bg-[#BDE11A] rounded-md hover:bg-[#4A076D] group border-none text-black text-center"></PopupButton> */}
       <button
         className="btn relative inline-flex items-center justify-start overflow-hidden transition-all bg-[#BDE11A] rounded-md hover:bg-white group border-none text-white"
         onClick={() => setOpen(true)}>
