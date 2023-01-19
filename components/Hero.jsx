@@ -13,19 +13,20 @@ const heroVariants = {
     opacity: 0,
     x: -200,
     y: -200,
-    scale: 0.25
+    // scale: 0.25
   },
   visible: {
     opacity: 1,
     x: 0,
     y: 0,
-    scale: 1,
+    // scale: 1,
     transition: {
       // delay: 0.5,
-      type: "spring",
+      type: "tween",
+      duration: 1,
       // when: "beforeChildren",
-      staggerChildren: 0.2,
-      stiffness: 40,
+      staggerChildren: 0.5,
+      // stiffness: 30,
     },
   },
 };

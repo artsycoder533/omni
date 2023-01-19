@@ -46,8 +46,8 @@ function Navbar() {
       </div>
       <ul
         className={
-          "flex flex-col md:flex-row gap-24 md:gap-8 items-center w-full md:w-auto justify-center md:justify-end absolute md:static top-[90px] left-0 right-0 h-[calc(100vh-91px)] md:h-auto bg-white transition-all ease-in-out duration-500 " +
-          (open ? "translate-x-0" : "translate-x-[100vh]")
+          "flex flex-col md:flex-row gap-12 md:gap-8 items-center w-full md:w-auto justify-center md:justify-end absolute md:static top-[90px] left-0 right-0 h-[calc(100vh-91px)] md:h-auto bg-white transition-all ease-in-out duration-500 " +
+          (open ? "translate-x-0" : "translate-x-[100vh] md:translate-x-0")
         }>
         {navItems.map((navItem, index) => {
           const { link, path } = navItem;
