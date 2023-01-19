@@ -9,7 +9,9 @@ function ContactInfo() {
           <FaPhone className="text-7xl text-[#BDE11A] mb-2" />
         </h3>
         <span>
-          <a href="tel:4342535617">(434)-253-5617</a>
+          <a className="hover:text-[#1A8B90]" href="tel:4342535617">
+            (434)-253-5617
+          </a>
         </span>
       </div>
       <div className="  flex flex-col gap-4 items-center p-4">
@@ -17,14 +19,18 @@ function ContactInfo() {
           <FaEnvelope className="text-7xl text-[#BDE11A]" />
         </h3>
         <span>
-          <a href="mailto:lateshia@omniamh.com">lateshia@omniamh.com</a>
+          <a
+            className="hover:text-[#1A8B90]"
+            href="mailto:lateshia@omniamh.com">
+            lateshia@omniamh.com
+          </a>
         </span>
       </div>
       <div className="flex flex-col gap-4 items-center p-4">
         <h3 className="flex gap-3">
           <FaClock className="text-7xl text-[#BDE11A] mb-2" />
         </h3>
-        <div className='flex flex-col text-center'>
+        <div className="flex flex-col text-center">
           <span>Mon - Thurs: 9:00AM to 6:00PM</span>
           <span>Fri - 9:00AM to 1:00PM</span>
         </div>
