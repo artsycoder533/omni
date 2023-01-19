@@ -69,7 +69,7 @@ function Footer() {
           href="https://www.natashajohnson.dev"
           target="_blank"
           rel="noopener noreferrer"
-          className="underline text-[#018183]">
+          className="underline">
           Natasha Johnson
         </Link>
       </p>
