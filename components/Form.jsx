@@ -13,28 +13,30 @@ function Form() {
       <input type="hidden" name="form-name" value="omni" />
       <div className="flex flex-col md:flex-row gap-8 w-full">
         <div className="flex flex-col w-full">
-          <label htmlFor="name">Name:</label>
+          {/* <label htmlFor="name">Name:</label> */}
           <input
             type="text"
             name="name"
-            id="email"
+            id="name"
+            placeholder="Name:"
             className="border-b"
             required
           />
         </div>
         <div className="flex flex-col w-full">
-          <label htmlFor="email">Email:</label>
+          {/* <label htmlFor="email">Email:</label> */}
           <input
             type="email"
             name="email"
             id="email"
             className="border-b"
+            placeholder="Email:"
             required
           />
         </div>
       </div>
       <div className="flex flex-col">
-        <label htmlFor="message">Message:</label>
+        {/* <label htmlFor="message">Message:</label> */}
         <textarea
           name="message"
           id="message"

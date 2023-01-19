@@ -74,7 +74,7 @@ function Faq() {
   return (
     <div className=" py-24 bg-[#018183]" id="faqs">
       <div className="w-[90vw] max-w-[1400px] mx-auto flex justify-between items-center flex-col md:flex-row gap-24">
-        <h3 className="text-center md:text-left text-5xl  text-white font-semibold py-12 flex flex-col gap-4">
+        <h3 className="text-center md:text-left text-5xl  text-black font-semibold py-12 flex flex-col gap-4">
           <span>Frequently</span> <span>Asked</span> <span>Questions</span>
         </h3>
         <div className="grid grid-cols-1 xl:grid-cols-2 w-full gap-4 ">
