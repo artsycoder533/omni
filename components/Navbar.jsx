@@ -60,7 +60,7 @@ function Navbar() {
           return (
             <li key={index}>
               <Link
-                className="text-2xl md:text-base"
+                className="text-2xl md:text-base hover:underline py-2 hover:text-[#1A8B90]"
                 href={path}
                 scroll={false}
                 onClick={() => setOpen(false)}>
