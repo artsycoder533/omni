@@ -37,7 +37,7 @@ function Services() {
     },
     {
       title: "VASAP",
-      description: "This facility is an approved provider of the Virginia Alcohol Safety Action Program services by the Comission of VASAP.  Contact us for more information!",
+      description: "This facility is an approved provider of the Virginia Alcohol Safety Action Program serviced by the Commission of VASAP.  Contact us for more information!",
       src: vasap,
     },
   ];
