@@ -22,11 +22,14 @@ const heroVariants = {
     // scale: 1,
     transition: {
       // delay: 0.5,
-      type: "tween",
+      type: "spring",
       duration: 1,
+      bounce: 0.2,
+      damping: 5,
+      staggerDirection: -1,
       // when: "beforeChildren",
-      staggerChildren: 0.5,
-      // stiffness: 30,
+      staggerChildren: 0.4,
+      stiffness: 40,
     },
   },
 };
