@@ -16,6 +16,10 @@ export default function Home() {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
+          property="og:image"
+          content="https://www.omniamh.com/images/desktop.jpg"
+        />
+        <meta
           name="description"
           content="We are Omni Addiction & Mental Health Services, a private behavioral health clinic offering outpatient Mental Health and Substance Use Therapy."
           key="desc"
@@ -35,10 +39,6 @@ export default function Home() {
           content="We are Omni Addiction & Mental Health Services, a private behavioral health clinic offering outpatient Mental Health and Substance Use Therapy."
         />
         <meta property="og:url" content="https://www.omniamh.com" />
-        <meta
-          property="og:image"
-          content="https://www.omniamh.com/images/desktop.png"
-        />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
@@ -50,7 +50,7 @@ export default function Home() {
         />
         <meta
           name="twitter:image"
-          content="https://www.omniamh.com/images/desktop.png"
+          content="https://www.omniamh.com/images/desktop.jpg"
         />
         <meta
           name="twitter:image:alt"
