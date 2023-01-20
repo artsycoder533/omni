@@ -33,7 +33,11 @@ export default function Home() {
           property="og:description"
           content="We are Omni Addiction & Mental Health Services, a private behavioral health clinic offering outpatient MentalHealth and Substance Use Therapy."
         />
-        <meta property="og:image" content=""/>
+        <meta property="og:image" content="" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Omni Addiction & Mental Health Services" />
+        <meta name="twitter:description" content="" We are Omni Addiction & Mental Health Services, a private behavioral health clinic offering outpatient MentalHealth and Substance Use Therapy." />
+        <meta name="twitter:image" content="" />
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="apple-touch-icon"
