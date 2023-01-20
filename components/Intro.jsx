@@ -12,9 +12,9 @@ function Intro() {
           million Americans struggle with substance use problems, while at least
           1 in 4 people suffer from both mental health and substance use
           disorders. Considering these statistics, I would say that a lot of
-          people would benefit from participating in therapy. Be it the need for
+          people would benefit from participating in therapy! Be it the need for
           general support, help managing bipolar, anxiety, or depression; or
-          addressing the impact of trauma, LBGTQ issues, or substance use; many
+          addressing the impact of trauma, LBGTQ issues, or substance use many
           of us could benefit from therapy at some point in our lifetimes. Of
           this need, Omni Addiction & Mental Health Services was founded to make
           more behavioral health services available to the communities of
