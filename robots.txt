@@ -4,4 +4,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: http://www.omniamh.com/sitemap.txt
+Sitemap: https://www.omniamh.com/sitemap.txt

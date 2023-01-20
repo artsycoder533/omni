@@ -34,8 +34,11 @@ export default function Home() {
           property="og:description"
           content="We are Omni Addiction & Mental Health Services, a private behavioral health clinic offering outpatient Mental Health and Substance Use Therapy."
         />
-        <meta property="og:url" content="http://www.omniamh.com" />
-        <meta property="og:image" content="" />
+        <meta property="og:url" content="https://www.omniamh.com" />
+        <meta
+          property="og:image"
+          content="https://www.omniamh.com/images/desktop.png"
+        />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
@@ -45,7 +48,14 @@ export default function Home() {
           name="twitter:description"
           content="We are Omni Addiction & Mental Health Services, a private behavioral health clinic offering outpatient Mental Health and Substance Use Therapy."
         />
-        <meta name="twitter:image" content="" />
+        <meta
+          name="twitter:image"
+          content="https://www.omniamh.com/images/desktop.png"
+        />
+        <meta
+          name="twitter:image:alt"
+          content="Omni Addiction and Mental Health Services Homepage"
+        />
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="apple-touch-icon"

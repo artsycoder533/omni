@@ -1,7 +1,7 @@
-http://www.omniamh.com
-http://www.omniamh.com/#about-us
-http://www.omniamh.com/#why-therapy
-http://www.omniamh.com/#our-Mission
-http://www.omniamh.com/#services 
-http://www.omniamh.com/#faqs
-http://www.omniamh.com/#contact
+https://www.omniamh.com
+https://www.omniamh.com/#about-us
+https://www.omniamh.com/#why-therapy
+https://www.omniamh.com/#our-Mission
+https://www.omniamh.com/#services 
+https://www.omniamh.com/#faqs
+https://www.omniamh.com/#contact
