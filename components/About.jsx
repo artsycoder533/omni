@@ -25,7 +25,7 @@ function About() {
         <div className="flex flex-col gap-8 leading-8 w-full">
           <p className="first-letter:font-bold first-letter:text-8xl first-letter:mr-3 first-letter:float-left">
             We are Omni Addiction & Mental Health Services, a private behavioral
-            health clinic offering outpatient MentalHealth and Substance Use
+            health clinic offering outpatient Mental Health and Substance Use
             Therapy. Omni AMHS is owned and operated by LaTeshia Gilliam, a
             Licensed Professional Counselor and Licensed Substance Abuse
             Treatment Practitioner who brings 18 years of experience in the
