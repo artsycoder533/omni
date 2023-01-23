@@ -16,9 +16,15 @@ export default function Home() {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
-          property="og:image"
-          content="https://www.omniamh.com/images/desktop.jpg"
+          property="og:title"
+          content="Omni Addiction & Mental Health Services"
         />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content="https://omniamh.com/images/desktop.jpg"
+        />
+        <meta property="og:site_name"  content="Omni Addiction & Mental Health Services" />
         <meta
           name="description"
           content="We are Omni Addiction & Mental Health Services, a private behavioral health clinic offering outpatient Mental Health and Substance Use Therapy."
@@ -29,16 +35,12 @@ export default function Home() {
           name="keywords"
           content="Addiction, Mental Health, Counseling, Therapy, Substance Abuse, Individual Therapy, Group Therapy, Family Therapy, CSAC Supervision"
         />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:title"
-          content="Omni Addiction & Mental Health Services"
-        />
+
         <meta
           property="og:description"
           content="We are Omni Addiction & Mental Health Services, a private behavioral health clinic offering outpatient Mental Health and Substance Use Therapy."
         />
-        <meta property="og:url" content="https://www.omniamh.com" />
+        <meta property="og:url" content="https://omniamh.com" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
@@ -50,7 +52,7 @@ export default function Home() {
         />
         <meta
           name="twitter:image"
-          content="https://www.omniamh.com/images/desktop.jpg"
+          content="https://omniamh.com/images/desktop.jpg"
         />
         <meta
           name="twitter:image:alt"
