@@ -56,6 +56,9 @@ export default function Home() {
           name="twitter:image:alt"
           content="Omni Addiction and Mental Health Services Homepage"
         />
+        {/* base */}
+        <meta name="keywords" content="Individual Therapy, Group Therapy, Family Therapy, CSAC Supervision, VASAP, Omni, Omni Addiction & Mental Health Services, Mental Health, therapy" />
+        <meta name="author" content="LaTeshia Gilliam" />
         {/* favicons */}
         <link rel="icon" href="/favicon.ico" />
         <link
