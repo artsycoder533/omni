@@ -59,7 +59,7 @@ export default function Home() {
           content="Omni Addiction and Mental Health Services Homepage"
         />
         {/* base */}
-        <meta name="keywords" content="Individual Therapy, Group Therapy, Family Therapy, CSAC Supervision, VASAP, Omni, Omni Addiction & Mental Health Services, Mental Health, therapy" />
+        <meta name="keywords" content="Individual Therapy, Group Therapy, Family Therapy, CSAC Supervision, VASAP, Omni, Omni Addiction & Mental Health Services, Mental Health, Therapy, Substance Abuse, Addiction" />
         <meta name="author" content="LaTeshia Gilliam" />
         <meta name="description" content="We are Omni Addiction & Mental Health Services, a private behavioral health clinic offering outpatient Mental Health and Substance Use Therapy. Omni Addiction & Mental Health Services was founded to make more behavioral health services available to the communities of Southside VA and beyond. We gladly accept self-referrals as well as probation & court-ordered referrals. Our services include Individual Therapy, Group Therapy, Family Therapy, CSAC Supervision, and VASAP. Coming soon: LPC Supervision and LSATP Supervision." />
         {/* favicons */}
