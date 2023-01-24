@@ -41,7 +41,7 @@ function Faq() {
       ],
     },
     {
-      question: "What are the some benefits of treatment? ",
+      question: "What are some of the benefits of treatment? ",
       answer:
         "Improved family & intimate relationships, Improved quality of life, Better Coping skills, Improved Communication skills, Substance Use cessation.",
     },
