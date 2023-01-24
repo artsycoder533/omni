@@ -13,7 +13,6 @@ function About() {
         <div className="text-lg mb-8 text-center overflow-hidden">
           <Image
             src={headshot}
-            priority
             height={500}
             width={500}
             className="rounded-lg mx-auto"

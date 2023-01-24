@@ -50,10 +50,6 @@ function Services() {
             return <ServiceCard key={index} {...service} />;
           })}
         </div>
-        {/* <div className="mt-16">
-          <CalendlyButton />
-        </div> */}
-
         <h3 className="text-4xl text-center py-12">Coming Soon...</h3>
         <ul className="w-[90vw] max-w-[1400px] mx-auto flex flex-col md:justify-center md:items-center gap-4 md:text-center list-style-none">
           <li className="flex gap-1">
